@@ -1,4 +1,94 @@
 
+/* Subscribe part */
+.containerSubscribePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgba(234, 110, 78, 0.9);
+  width: 100%;
+  height: 800px;
+}
+.topFormular {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+.leftDiv,
+.rightDiv {
+  width: 35%;
+  height: 60%;
+  padding: 50px;
+}
+input,
+textarea {
+  width: 100%;
+  border: 2px solid white;
+  background-color: rgb(65, 213, 171);
+  margin: 10px 0;
+}
+textarea {
+  height: 200px;
+}
+.rightDiv {
+  background-color: rgb(65, 213, 171);
+  border: 5px solid black;
+}
+#subscribeButton {
+  color: rgb(65, 213, 171);
+  background-color: rgb(57, 2, 10);
+  padding: 10px;
+  width: 150px;
+}
+#subscribePopcorn {
+  transform: rotate(60deg);
+  width: 60px;
+}
+.leftDiv > h1 {
+  color: white;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(57, 2, 10, 0.9);
+  width: 100%;
+  height: 400px;
+}
+
+.aboutUsText {
+  text-align: center;
+  width: 30%;
+}
+
+.aboutUsText > h1 {
+  color: white;
+}
+.aboutUsText > p {
+  color: rgb(65, 213, 171);
+  font-weight: bold;
+}
+
+#aboutUsButton {
+  color: rgba(57, 2, 10, 0.9);
+  background-color: rgb(255, 185, 78);
+  border: none;
+  padding: 10px;
+  width: 150px;
+}
+
+#aboutUsPopcorn {
+  transform: rotate(230deg);
+  width: 60px;
+  position: relative;
+  
+}
+
+
 * {
     box-sizing: border-box;
   }
@@ -23,11 +113,7 @@
 
   .button {
    width: 50%;
-   
 }
-
-  
-  
 
 .Part1{
     background-image: url("./img/2.png");
@@ -176,12 +262,9 @@ footer{
   width: 100px;
 }
  
-  
 
 .footer_left{
   margin-top: 380px;
-
-
 }
  
 .footer_text{
@@ -200,11 +283,10 @@ footer{
   margin-bottom:50px;  
 }
 
-  
-
 .social_img {
   margin: 5px;
   margin-bottom: 20px;
 }
+
 
 
