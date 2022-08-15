@@ -48,3 +48,41 @@ textarea {
 .leftDiv > h1 {
   color: white;
 }
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(57, 2, 10, 0.9);
+  width: 100%;
+  height: 400px;
+}
+
+.aboutUsText {
+  text-align: center;
+  width: 30%;
+}
+
+.aboutUsText > h1 {
+  color: white;
+}
+.aboutUsText > p {
+  color: rgb(65, 213, 171);
+  font-weight: bold;
+}
+
+#aboutUsButton {
+  color: rgba(57, 2, 10, 0.9);
+  background-color: rgb(255, 185, 78);
+  border: none;
+  padding: 10px;
+  width: 150px;
+}
+
+#aboutUsPopcorn {
+  transform: rotate(230deg);
+  width: 60px;
+  position: relative;
+  
+}
