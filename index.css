@@ -1,0 +1,50 @@
+/* Subscribe part */
+.containerSubscribePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: rgba(234, 110, 78, 0.9);
+  width: 100%;
+  height: 1000px;
+}
+.topFormular {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 100%;
+}
+.leftDiv,
+.rightDiv {
+  width: 35%;
+  height: 60%;
+  padding: 50px;
+}
+input,
+textarea {
+  width: 100%;
+  border: 2px solid white;
+  background-color: rgb(65, 213, 171);
+  margin: 10px 0;
+}
+textarea {
+  height: 200px;
+}
+.rightDiv {
+  background-color: rgb(65, 213, 171);
+  border: 5px solid black;
+}
+#subscribeButton {
+  color: rgb(65, 213, 171);
+  background-color: rgb(57, 2, 10);
+  padding: 10px;
+  width: 150px;
+}
+#subscribePopcorn {
+  transform: rotate(60deg);
+  width: 60px;
+}
+.leftDiv > h1 {
+  color: white;
+}
