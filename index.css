@@ -1,3 +1,34 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  .map {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    
+  }
+  
+  .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+   width: 50%;
+   
+}
+
+  
+  
+
 .Part1{
     background-image: url("./img/2.png");
     background-repeat: no-repeat;
