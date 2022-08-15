@@ -1,0 +1,13 @@
+.part1Top{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 2em; 
+  }
+
+  .part1TopLeft{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 2em;  
+  }
